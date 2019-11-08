@@ -6,7 +6,7 @@ DOI: tbd
 
 ## Overview
 
-This directory hosts the data that was analyzed and included in Gulli, Duong, Corrigan, Doucet, Williams, Fusi & Martinez-Trujillo 2020, Nature Neuroscience. 
+This directory hosts the data that was analyzed and included in Gulli, Duong, Corrigan, Doucet, Williams, Fusi & Martinez-Trujillo, Nature Neuroscience (in press). 
 
 For code used to process and analyze this data, please email Roberto Gulli. 
 
@@ -33,12 +33,18 @@ where the average firing rate per pixel (BAR LAMBDA) for each neuron can be acce
 ## Spatial response fields
 **Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task. All data presented in this figure is derived from the significance maps included in the `significance_maps` directory. These data are organized such that data indices correspond with the average firing rate maps of the previous section. 
 
+
 ## Spatial decoding analyses
 
 **Fig. 3** shows the spatial decoding accuracy using both an allocentric and direction-dependent reference frame, using hippocampal data collected while monkeys completed the X-Maze in both tasks.  
 
+Files containing data for these analyses can be found in the `spatial_decoding` directory. 
+
+
 ## Trial type encoding and decoding analyses
 
+
+**Figs. 4, 5** & **6** 
 
 ## More details
 
