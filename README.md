@@ -6,7 +6,7 @@ DOI: tbd
 
 ## Overview
 
-This directory hosts the data that was analyzed and included in Gulli, Duong, Corrigan, Doucet, Williams, Fusi & Martinez-Trujillo, Nature Neuroscience (in press). 
+This directory hosts the data that was analyzed and included in Gulli _et al._ Nature Neuroscience (in press). 
 
 For code used to process and analyze this data, please email Roberto Gulli. 
 
@@ -22,13 +22,15 @@ Data from these neurons used to generate these plots can be found in the directo
 
 **Fig. 1d** reports spatial information content for the population of hippocampal neurons recorded in each task. 
 
-### From the manuscript Methods: 
 The specificity of each neuron’s spatial response map was quantified using spatial information content(31, 53) (Figure 1E). Each neuron’s information content (I; in bits) is defined as
 
-(INSERT EQ 1 HERE)
+![img](http://www.sciweavers.org/tex2img.php?eq=I%20%3D%20%5Csum_i%5EL%20P_i%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D%20%5Clog_2%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-where the average firing rate per pixel (BAR LAMBDA) for each neuron can be accessed in the directory `firing_rate_maps`.
+where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of time spent in the _i<sup>th<sup>_ pixel, and ![img](http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) is the average firing rate for each pixel. 
+  
+This data can be found for each neuron can be accessed in the directory `firing_rate_maps`.
 
+Note, _normalized_ spatial information content values are reported in the manuscript. These values subtract the mean of permutation-derived null spatial information content values for each neuron. 
 
 ## Spatial response fields
 **Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task. All data presented in this figure is derived from the significance maps included in the `significance_maps` directory. These data are organized such that data indices correspond with the average firing rate maps of the previous section. 
