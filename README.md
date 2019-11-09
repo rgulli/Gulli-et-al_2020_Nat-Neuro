@@ -24,9 +24,13 @@ Data from these neurons used to generate these plots can be found in the directo
 
 The specificity of each neuron’s spatial response map was quantified using spatial information content(31, 53) (Figure 1E). Each neuron’s information content (I; in bits) is defined as
 
-![img](http://www.sciweavers.org/tex2img.php?eq=I%20%3D%20%5Csum_i%5EL%20P_i%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D%20%5Clog_2%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![sic](http://www.sciweavers.org/tex2img.php?eq=I%20%3D%20%5Csum_i%5EL%20P_i%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D%20%5Clog_2%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of time spent in the _i<sup>th<sup>_ pixel, and ![img](http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) is the average firing rate for each pixel. 
+where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of time spent in the _i<sup>th<sup>_ pixel, and 
+
+![avgfr](http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
+  
+is the average firing rate for each pixel. 
   
 This data can be found for each neuron can be accessed in the directory `firing_rate_maps`.
 
@@ -51,3 +55,6 @@ Files containing data for these analyses can be found in the `spatial_decoding` 
 ## More details
 
 ### See [hyperlink example](http://www.google.com).
+
+#
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This page</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://robertogulli.com/data" property="cc:attributionName" rel="cc:attributionURL">Roberto Gulli</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International License</a>.
