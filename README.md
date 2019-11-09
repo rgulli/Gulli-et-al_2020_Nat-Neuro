@@ -8,9 +8,6 @@ DOI: tbd
 
 This directory hosts the data that was analyzed and included in Gulli _et al._ Nature Neuroscience (in press). 
 
-For code used to process and analyze this data, please email Roberto Gulli. 
-
-
 ## Example neurons
 
 In **Fig. 1c**, six example neurons are shown with spikes overlaid on trajectories through the virtual reality environment. 
@@ -27,14 +24,13 @@ The specificity of each neuron’s spatial response map was quantified using spa
 <img src="https://latex2image.joeraut.com/output/img-3add55d7ad3f6fed.png" align="center" border="0" alt="I=\sum_i^L P_i \frac{\lambda_i}{\bar{\lambda}}\log_2  \frac{\lambda_i}{\bar{\lambda}}" />
 
 where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of time spent in the _i<sup>th<sup>_ pixel, and <img src="http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\lambda_i" width="19" height="18" /> is the average firing rate for each pixel. 
-  
-This data can be found for each neuron can be accessed in the directory `firing_rate_maps`.
 
 Note, _normalized_ spatial information content values are reported in the manuscript. These values subtract the mean of permutation-derived null spatial information content values for each neuron. 
 
-## Spatial response fields
-**Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task. All data presented in this figure is derived from the significance maps included in the `significance_maps` directory. These data are organized such that data indices correspond with the average firing rate maps of the previous section. 
 
+**Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task. 
+
+Data for these analyses can be accessed in the directory `firing_rate_maps`.  
 
 ## Spatial decoding analyses
 
@@ -43,14 +39,17 @@ Note, _normalized_ spatial information content values are reported in the manusc
 Files containing data for these analyses can be found in the `spatial_decoding` directory. 
 
 
-## Trial type encoding and decoding analyses
+## Associative memory task trial type encoding and decoding analyses
 
+**Figs. 4, 5** & **6** use regression and classification to examine sensory and mnemonic coding for objects and context in hippocampal neurons recorded during the associative memory task. 
 
-**Figs. 4, 5** & **6** 
+All data for these analyses can be accessed in the `AM_trial_type` directory. 
 
 ## More details
 
-### See [hyperlink example](http://www.google.com).
+For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to email me. 
+
+Information about new projects can be found at https://robertogulli.com
 
 #
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This page</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://robertogulli.com/data" property="cc:attributionName" rel="cc:attributionURL">Roberto Gulli</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International License</a>.
