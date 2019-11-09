@@ -24,7 +24,7 @@ Data from these neurons used to generate these plots can be found in the directo
 
 The specificity of each neuron’s spatial response map was quantified using spatial information content(31, 53) (Figure 1E). Each neuron’s information content (I; in bits) is defined as
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=I%3D%5Csum_i%5EL%20P_i%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D%5Clog_2%20%20%5Cfrac%7B%5Clambda_i%7D%7B%5Cbar%7B%5Clambda%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="I=\sum_i^L P_i \frac{\lambda_i}{\bar{\lambda}}\log_2  \frac{\lambda_i}{\bar{\lambda}}" width="147" height="53" />
+<img src="https://quicklatex.com/cache3/3b/ql_822d7030b291688b8aa1d10756e1d33b_l3.png" align="center" border="0" alt="I=\sum_i^L P_i \frac{\lambda_i}{\bar{\lambda}}\log_2  \frac{\lambda_i}{\bar{\lambda}}" />
 
 where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of time spent in the _i<sup>th<sup>_ pixel, and <img src="http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\lambda_i" width="19" height="18" /> is the average firing rate for each pixel. 
   
