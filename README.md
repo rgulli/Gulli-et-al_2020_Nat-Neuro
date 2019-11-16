@@ -2,7 +2,7 @@
 ## Roberto A. Gulli, Lyndon R. Duong, Benjamin W. Corrigan, Guillaume Doucet, Sylvain Williams, Stefano Fusi, & Julio C. Martinez-Trujillo
 
 ### Nature Neuroscience
-DOI: tbd
+DOI: 10.1038/s41593-019-0548-3
 
 ## Overview
 
@@ -49,7 +49,6 @@ All data for these analyses can be accessed in the `AM_trial_type` directory.
 
 For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to email me. 
 
-Information about new projects can be found at https://robertogulli.com
 
 #
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This page</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://robertogulli.com/data" property="cc:attributionName" rel="cc:attributionURL">Roberto Gulli</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International License</a>.
