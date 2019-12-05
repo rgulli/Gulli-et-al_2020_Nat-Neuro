@@ -28,7 +28,7 @@ The specificity of each neuron’s spatial response map was quantified using spa
 
 where _L_ is the total number of pixels, <img src="http://www.sciweavers.org/tex2img.php?eq=P_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="P_i" width="14" height="14" /> is the proportion of time spent in the <img src="http://www.sciweavers.org/tex2img.php?eq=i%5E%7Bth%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="i^{th}" width="16" height="14" /> pixel, and <img src="http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\lambda_i" width="14" height="14" /> is the average firing rate for each pixel. 
 
-Note, _normalized_ spatial information content values are reported in the manuscript. These values subtract the mean of permutation-derived null spatial information content values for each neuron. 
+>Note, _normalized_ spatial information content values are reported in the manuscript. These values subtract the mean of permutation-derived null spatial information content values for each neuron. 
 
 **Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task using the same pixel size. 
 Pixellated firing rate maps are shown for six example neurons in **Extended Data Figure 4**. 
@@ -49,5 +49,5 @@ All data for these analyses can be accessed in the `Associative Memory Trial Dat
 For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to <a href="mailto:roberto.gulli@mail.mcgill.ca" target="_blank">email me</a>. 
 
 
-#
+---
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This page</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://robertogulli.com/data" property="cc:attributionName" rel="cc:attributionURL">Roberto Gulli</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International License</a>.
