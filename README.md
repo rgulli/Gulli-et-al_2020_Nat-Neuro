@@ -17,9 +17,9 @@ Data from these neurons used to generate these plots can be found in the directo
 
 ## Spatial information content and spatial firing fields
 
-**Fig. 1d** reports spatial information content for the population of hippocampal neurons recorded in each task. 
+**Fig. 1e** reports spatial information content for the population of hippocampal neurons recorded in each task. 
 
-The specificity of each neuron’s spatial response map was quantified using spatial information content(31, 53) (Figure 1E). Each neuron’s information content (I; in bits) is defined as
+The specificity of each neuron’s spatial response map was quantified using spatial information content. Each neuron’s information content (I; in bits) is defined as
 
 <img src="https://latex2image.joeraut.com/output/img-3add55d7ad3f6fed.png" align="center" border="0" alt="I=\sum_i^L P_i \frac{\lambda_i}{\bar{\lambda}}\log_2  \frac{\lambda_i}{\bar{\lambda}}" />
 
