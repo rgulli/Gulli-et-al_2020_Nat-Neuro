@@ -6,18 +6,20 @@ DOI: 10.1038/s41593-019-0548-3
 
 ## Overview
 
-This directory hosts the data that was analyzed and included in Gulli _et al._ Nature Neuroscience (in press). 
+This directory hosts the data that was analyzed and included in Gulli _et al._ (_in press_, January 2020). 
 
-## Example neurons
+## Spatial position and firing rate vectors
 
-In **Fig. 1c**, six example neurons are shown with spikes overlaid on trajectories through the virtual reality environment. 
+**Figs. 1, 2, and 3** all include analyses that start with subjects' trial-to-trial position in the X-Maze during each task. 
+This data can be downloaded in the directory `Position and Spike Rasters`. In **Fig. 1d**, six example neurons are shown with spikes overlaid on trajectories through the virtual reality environment.
 
-Data from these neurons used to generate these plots can be found in the directory `example_neurons`.
+Plots akin to these can be quickly generated for any neuron using the data provided here. 
 
 
 ## Spatial information content and spatial firing fields
 
 **Fig. 1e** reports spatial information content for the population of hippocampal neurons recorded in each task. 
+For these analyses, firing rate for each neuron was computed in 104 &times 104 unit pixels.  
 
 The specificity of each neuron’s spatial response map was quantified using spatial information content. Each neuron’s information content (I; in bits) is defined as
 
@@ -27,27 +29,23 @@ where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of tim
 
 Note, _normalized_ spatial information content values are reported in the manuscript. These values subtract the mean of permutation-derived null spatial information content values for each neuron. 
 
-
-**Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task. 
-
-Data for these analyses can be accessed in the directory `firing_rate_maps`.  
+**Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task using the same pixel size. 
+Pixellated firing rate maps are shown for six example neurons in **Extended Data Figure 4**. 
+The analyses in Fig. 2 are replicated the using 208 &times 208 unit pixels in **Extended Data Figure 5**.   
 
 ## Spatial decoding analyses
 
-**Fig. 3** shows the spatial decoding accuracy using both an allocentric and direction-dependent reference frame, using hippocampal data collected while monkeys completed the X-Maze in both tasks.  
-
-Files containing data for these analyses can be found in the `spatial_decoding` directory. 
-
+**Fig. 3** shows the spatial decoding accuracy using both an allocentric and direction-dependent reference frame, using hippocampal data collected while monkeys completed the X-Maze in both tasks.  For these analyses, firing rates were computed from the position and spike rasters in either 9 or 5 distinct maze areas (corresponding to _allocentric_ or _directional_ reference frames, respectively). Please see the Methods for more detail. 
 
 ## Associative memory task trial type encoding and decoding analyses
 
 **Figs. 4, 5** & **6** use regression and classification to examine sensory and mnemonic coding for objects and context in hippocampal neurons recorded during the associative memory task. 
 
-All data for these analyses can be accessed in the `AM_trial_type` directory. 
+All data for these analyses can be accessed in the `Associative Memory Trial Type` directory. 
 
 ## More details
 
-For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to email me. 
+For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to <a rel="email me" href="mailto:roberto.gulli@mail.mcgill.ca">. 
 
 
 #
