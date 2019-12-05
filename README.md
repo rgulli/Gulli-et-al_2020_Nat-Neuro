@@ -26,7 +26,7 @@ The specificity of each neuron’s spatial response map was quantified using spa
 
 <img src="https://latex2image.joeraut.com/output/img-3add55d7ad3f6fed.png" align="center" border="0" alt="I=\sum_i^L P_i \frac{\lambda_i}{\bar{\lambda}}\log_2  \frac{\lambda_i}{\bar{\lambda}}" />
 
-where _L_ is the total number of pixels, _P<sub>i<sub>_ is the proportion of time spent in the _i<sup>th<sup>_ pixel, and <img src="http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\lambda_i" width="19" height="18" /> is the average firing rate for each pixel. 
+where _L_ is the total number of pixels, <img src="http://www.sciweavers.org/tex2img.php?eq=P_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="P_i" width="14" height="14" /> is the proportion of time spent in the <img src="http://www.sciweavers.org/tex2img.php?eq=i%5E%7Bth%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="i^{th}" width="16" height="14" /> pixel, and <img src="http://www.sciweavers.org/tex2img.php?eq=%5Clambda_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\lambda_i" width="14" height="14" /> is the average firing rate for each pixel. 
 
 Note, _normalized_ spatial information content values are reported in the manuscript. These values subtract the mean of permutation-derived null spatial information content values for each neuron. 
 
