@@ -43,7 +43,7 @@ The analyses in Fig. 2 are replicated the using 208 &times; 208 unit pixels in *
 
 **Figs. 4, 5** & **6** use regression and classification to examine sensory and mnemonic coding for objects and context in hippocampal neurons recorded during the associative memory task. 
 
-All data for these analyses can be accessed in the `Associative Memory Trial Type` directory. 
+All data for these analyses can be accessed in the `Associative Memory Trial Data` directory. 
 
 ## More details
 
