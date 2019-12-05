@@ -19,7 +19,7 @@ Plots akin to these can be quickly generated for any neuron using the data provi
 ## Spatial information content and spatial firing fields
 
 **Fig. 1e** reports spatial information content for the population of hippocampal neurons recorded in each task. 
-For these analyses, firing rate for each neuron was computed in 104 &times 104 unit pixels.  
+For these analyses, firing rate for each neuron was computed in 104 &times; 104 unit pixels.  
 
 The specificity of each neuron’s spatial response map was quantified using spatial information content. Each neuron’s information content (I; in bits) is defined as
 
@@ -31,7 +31,7 @@ Note, _normalized_ spatial information content values are reported in the manusc
 
 **Fig. 2** shows the number of neurons with a significantly elevated firing rate for each pixel of the maze in each task using the same pixel size. 
 Pixellated firing rate maps are shown for six example neurons in **Extended Data Figure 4**. 
-The analyses in Fig. 2 are replicated the using 208 &times 208 unit pixels in **Extended Data Figure 5**.   
+The analyses in Fig. 2 are replicated the using 208 &times; 208 unit pixels in **Extended Data Figure 5**.   
 
 ## Spatial decoding analyses
 
@@ -45,7 +45,7 @@ All data for these analyses can be accessed in the `Associative Memory Trial Typ
 
 ## More details
 
-For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to <a rel="email me" href="mailto:roberto.gulli@mail.mcgill.ca">. 
+For more information about these data, code, questions or comments regarding the analyses, or a PDF of the manuscript and supplemental materials, feel free to <a href="mailto:roberto.gulli@mail.mcgill.ca" target="_blank">email me</a>. 
 
 
 #
