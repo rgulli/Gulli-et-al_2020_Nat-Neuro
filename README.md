@@ -10,7 +10,7 @@ This directory hosts the data that was analyzed and included in Gulli _et al._ (
 
 ## Spatial position and firing rate vectors
 
-**Figs. 1, 2, and 3** all include analyses that start with subjects' trial-to-trial position in the X-Maze during each task. 
+**Figs. 1**, **2**, & **3** all include analyses that start with subjects' trial-to-trial position in the X-Maze during each task. 
 This data can be downloaded in the directory `Position and Spike Rasters`.  
 
 In **Fig. 1d**, six example neurons are shown with spikes overlaid on trajectories through the virtual reality environment.
